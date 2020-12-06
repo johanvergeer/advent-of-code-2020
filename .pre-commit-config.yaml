@@ -2,22 +2,22 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.3.0
     hooks:
-    -   id: check-yaml
-    -   id: end-of-file-fixer
-    -   id: trailing-whitespace
-    -   id: check-ast
-    -   id: check-toml
-    -   id: debug-statements
-    -   id: mixed-line-ending
+    - id: check-yaml
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+    - id: check-ast
+    - id: check-toml
+    - id: debug-statements
+    - id: mixed-line-ending
   - repo: https://github.com/psf/black
     rev: 20.8b1
     hooks:
     -   id: black
-  - repo: github.com/PyCQA/isort
+  - repo: https://github.com/pycqa/isort
     rev: 5.6.4
     hooks:
-    -   id: isort
-  - repo: gitlab.com/PyCQA/flake8
+    - id: isort
+  - repo: https://gitlab.com/pycqa/flake8
     rev: 3.8.4
     hooks:
-    -   id: flake8
+    - id: flake8
